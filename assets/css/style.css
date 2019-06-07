@@ -1,0 +1,26 @@
+
+
+body {
+    background-image: url(../images/design-tools.jpg);
+    background-color: grey;
+    text-align: ;
+    margin-left: 465px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Righteous', cursive;
+}
+
+div {
+    width: 960px;
+    border:solid;
+    border-color:teal;
+    background-color: grey;
+}
+header h1 {
+    background-color:;
+    width:960px;
+    border: solid;
+    border-color:teal;
+    padding-bottom:15px;
+    background-color:grey;
+}
