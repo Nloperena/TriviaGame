@@ -24,47 +24,33 @@ var count = 10;
 //questions
 var myQuestions = [{
         question: "What color is an Apple? ",
-        choiceA: "Red ",
-        choiceB: "Blue ",
-        choiceC: "Purple ",
-        choiceD: "Black ",
-        correct: "A"
+        choices: ["Red ","Blue ", "Purple ","Black "],
+        correct: "Red"
         // gif: //link to image
     },
     {
         question: "What color is an Grape? ",
-        choiceA: "Red ",
-        choiceB: "Blue ",
-        choiceC: "Purple ",
-        choiceD: "Black ",
-        correct: "C"
+        choices: ["Red ","Blue ", "Purple ","Black "],
+        correct: "Purple"
+        
         // gif: //link to image
     },
     {
         question: "What color is the sky? ",
-        choiceA: "Red ",
-        choiceB: "Blue ",
-        choiceC: "Purple ",
-        choiceD: "Black ",
-        correct: "B"
+        choices: ["Red ","Blue ", "Purple ","Black "],
+        correct: "Blue"
         // gif: //link to image;
     },
     {
         question: "What color is represents royalty? ",
-        choiceA: "Red ",
-        choiceB: "Blue ",
-        choiceC: "Purple ",
-        choiceD: "Black ",
-        correct: "C"
+        choices: ["Red ","Blue ", "Purple ","Black "],
+        correct: "Purple"
         // gif: //link to image
     },
     {
         question: "What color is fire on Earth usually? ",
-        choiceA: "Red ",
-        choiceB: "Blue ",
-        choiceC: "Purple ",
-        choiceD: "Black ",
-        correct: "A"
+        choices: ["Red ","Blue ", "Purple ","Black "],
+        correct: "Red"
         // gif: //link to image
     }
 ]
@@ -134,4 +120,19 @@ $("#quiz-answer-area").click(timer)
 // $("#quiz-question-area").append(myQuestions[0].question);
 $("#quiz-answer-area").append(myQuestions[0].answers)
 $("#quiz-question-area").text(myQuestions[next].question)
-   
+
+// function answerKey() {
+
+($("#red").on("click",function(){ 
+    alert("correct!")
+}),
+$("#blue").on("click",function(){ 
+    alert("incorrect!")
+}),
+$("#purple").on("click",function(){ 
+    alert("incorrect!")
+}),
+$("#black").on("click",function(){ 
+    alert("incorrect!")
+}))
+// }
