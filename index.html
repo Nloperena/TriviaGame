@@ -36,9 +36,16 @@
     <div id = "wrapper"> <h1>Nicholas Loperena </h1>
         <div id = "sub-wrapper"> <strong>Welcome to my Trivia Game</strong>
             <div id = "quiz-area"> There are 10 questions, can you answer them all correctly?
-                <div id = "quiz-answer-area">quiz questions go here</div>
+                <div id = "quiz-question-area"></div>
+                <div id = "quiz-answer-area">
+                    <p class = "choice" id="A" onclick ="checkAnswer('A')">A</p>
+                    <p class = "choice" id="B" onclick ="checkAnswer('B')">B</p>
+                    <p class = "choice" id="C" onclick ="checkAnswer('C')">C</p>
+                    <p class = "choice" id="D" onclick ="checkAnswer('D')">D</p>
+                </div>
                 <div id ="counter">timer starts here</div>
                 <button id ="start-button" type = "button">START GAME</button>
+                <button id ="submit-button" type = "button">Submit</button>
             </div>
         </div>
     </div>
