@@ -25,34 +25,65 @@ var count = 10;
 var myQuestions = [{
         question: "What color is an Apple? ",
         choices: ["Red ","Blue ", "Purple ","Black "],
-        correct: "Red"
+        correct: "Red "
         // gif: //link to image
     },
     {
         question: "What color is an Grape? ",
         choices: ["Red ","Blue ", "Purple ","Black "],
-        correct: "Purple"
+        correct: "Purple "
         
         // gif: //link to image
     },
     {
         question: "What color is the sky? ",
         choices: ["Red ","Blue ", "Purple ","Black "],
-        correct: "Blue"
+        correct: "Blue "
         // gif: //link to image;
     },
     {
         question: "What color is represents royalty? ",
         choices: ["Red ","Blue ", "Purple ","Black "],
-        correct: "Purple"
+        correct: "Purple "
         // gif: //link to image
     },
     {
         question: "What color is fire on Earth usually? ",
         choices: ["Red ","Blue ", "Purple ","Black "],
-        correct: "Red"
+        correct: "Red "
         // gif: //link to image
-    }
+    },
+    {
+        question: "What color is charcoal? ",
+        choices: ["Red ","Blue ", "Purple ","Black "],
+        correct: "Black "
+        // gif: //link to image
+    },
+    {
+        question: "What color is primary color for the Lakers? ",
+        choices: ["Red ","Blue ", "Purple ","Black "],
+        correct: "Purple "
+        // gif: //link to image
+    },
+    {
+        question: "What color is a saphire gem in most cases?",
+        choices: ["Red ","Blue ", "Purple ","Black "],
+        correct: "Blue "
+        // gif: //link to image
+    },
+    {
+        question: "What color is associated with the unknown? ",
+        choices: ["Red ","Blue ", "Purple ","Black "],
+        correct: "Black "
+        // gif: //link to image
+    },
+    {
+        question: "What is the primary color of the Pepsi brand? ",
+        choices: ["Red ","Blue ", "Purple ","Black "],
+        correct: "Blue "
+        // gif: //link to image
+    },
+    
 ]
 
 //created this variable to try and work with my other function on line 88
